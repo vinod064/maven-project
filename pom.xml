@@ -12,7 +12,12 @@
   <name>banking webapp Maven Webapp</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
-
+<distributionManagement>
+  <repository>
+    <id>banking</id>
+    <url>http://localhost:8080/nexus-2.14.12-02/content/repositories/banking</url>
+  </repository>
+</distributionManagement>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
