@@ -75,6 +75,11 @@
 			<path>/bankingwebapp</path>
 			<server>myserver</server>
 		</configuration>
+			<configuration>
+			<url>http://localhost:8080/nexus-2.14.12-02/</url>
+			<path>/bankingwebapp</path>
+			<server>vinod</server>
+		</configuration>
 	</plugin>
 	<plugin>
         <groupId>org.apache.maven.plugins</groupId>
